@@ -1,0 +1,40 @@
+/* red color style */
+
+.fa-music,
+.preloader .loader i,
+.people-section .people-item-inner .social-links a i, 
+.story-section .story-item i,
+.story-section .story-text h3,
+.couple-section .social-links a i,
+.couple-section .couple i.fa-heart,
+.couple-section .couple h3,
+body.dark .header .nav ul li a.active,
+body.dark .header .nav ul li a:hover,
+.header .nav ul li a.active,
+.header .nav ul li a:hover {
+    color: #cc3a3b;
+}
+
+.fa-music,
+.people-section .people-item-inner .social-links a i,
+.couple-section .social-links a i,
+.couple-section .couple img {
+    border-color: #cc3a3b;
+}
+
+.preloader .loader::before {
+    border-right-color: #cc3a3b;
+}
+
+.fa-music.pause::after,
+.setting .s-toggle-btn,
+.people-section .people-item-inner .social-links a:hover i,
+body.dark .people-section .filter-btn.active,
+.people-section .filter-btn.active,
+.couple-section .social-links a:hover i {
+    background-color: #cc3a3b;
+}
+
+.footer .footer-content .couple-name img {
+    filter: hue-rotate(30deg);
+}
